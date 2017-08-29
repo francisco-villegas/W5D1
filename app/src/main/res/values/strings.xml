@@ -7,4 +7,7 @@
 
     <string name="facebook_app_id">1509473449114621</string>
     <string name="fb_login_protocol_scheme">55515a51799f5bd891fa768407fdc74c</string>
+
+    <string name="CONSUMER_KEY">xVmn1F2N5mzd8g7oEyu4OyTLC</string>
+    <string name="CONSUMER_SECRET">EwLledNc9Hk7gFm3pWvlSjsWA3GnFl1P5SGNxynzdGeESnaw4A</string>
 </resources>

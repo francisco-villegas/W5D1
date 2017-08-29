@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     repositories {
         mavenCentral()
+        maven { url 'https://maven.fabric.io/public' }
     }
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
@@ -69,6 +70,15 @@ dependencies {
 
     //Facebook
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    //Google
+    compile 'com.google.android.gms:play-services-auth:11.0.4'
+
+    //Twitter
+    // Include all the Twitter APIs
+    compile 'com.twitter.sdk.android:twitter:3.1.1'
+    // (Optional) Monetize using mopub
+    compile 'com.twitter.sdk.android:twitter-mopub:3.1.1'
 }
 
 
