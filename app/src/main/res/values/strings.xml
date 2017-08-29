@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">W5D1</string>
+
+    <string name="ic_facebook">&#xf09a;</string>
+    <string name="ic_google">&#xf1a0;</string>
+    <string name="ic_twiter">&#xf099;</string>
+
+    <string name="facebook_app_id">1509473449114621</string>
+    <string name="fb_login_protocol_scheme">55515a51799f5bd891fa768407fdc74c</string>
+</resources>
