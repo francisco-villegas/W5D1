@@ -201,4 +201,39 @@
         <!--android:layout_marginLeft="8dp"-->
         <!--app:layout_constraintLeft_toLeftOf="parent" />-->
 
+    <FrameLayout
+        android:id="@+id/wallet_button_holder"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingIn"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm_button"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:textStyle="bold"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false"
+        android:id="@+id/confirm_button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirm"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

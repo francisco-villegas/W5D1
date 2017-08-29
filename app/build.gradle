@@ -79,6 +79,11 @@ dependencies {
     compile 'com.twitter.sdk.android:twitter:3.1.1'
     // (Optional) Monetize using mopub
     compile 'com.twitter.sdk.android:twitter-mopub:3.1.1'
+
+
+    //Speedy Mobile Checkout with Android Pay
+    compile 'com.google.android.gms:play-services-wallet:11.0.4'
+    compile 'com.android.support:support-v4:25.+'
 }
 
 
